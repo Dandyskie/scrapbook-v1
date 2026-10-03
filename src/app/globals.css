@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: var(--font-serif), "Cormorant Garamond", Georgia, serif;
+  --font-sans: var(--font-sans), "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-handwriting: var(--font-handwriting), "Caveat", cursive;
+
+  --color-paper-bg: #F8F5F0;
+  --color-paper-surface: #FFFDFC;
+  --color-paper-muted: #F3ECE3;
+  --color-paper-border: #E8DFD5;
+  --color-ink-primary: #292625;
+  --color-ink-muted: #7E7471;
+  --color-ink-faint: #A89E9B;
+  --color-rose-deep: #8B5E5E;
+  --color-rose-soft: #D8B4A0;
+  --color-sand-warm: #B89B72;
+}
+
+/* Custom Scrapbook Paper & Craft Textures */
+.paper-texture {
+  background-color: #FFFDFC;
+  background-image: radial-gradient(rgba(139, 94, 94, 0.04) 1px, transparent 0);
+  background-size: 20px 20px;
+}
+
+.scrapbook-shadow {
+  box-shadow: 0 6px 20px -3px rgba(41, 38, 37, 0.07), 0 2px 6px -1px rgba(41, 38, 37, 0.04);
+}
+
+.polaroid-shadow {
+  box-shadow: 0 12px 28px -6px rgba(41, 38, 37, 0.1), 0 4px 10px -2px rgba(41, 38, 37, 0.05);
+}
+
+.card-pressed {
+  box-shadow: inset 0 1px 3px rgba(41, 38, 37, 0.05);
+}
+
+/* Washi Tape Texture Effect */
+.washi-tape {
+  background: rgba(246, 240, 230, 0.88);
+  box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(41, 38, 37, 0.08);
+  border-left: 2px dashed rgba(184, 155, 114, 0.3);
+  border-right: 2px dashed rgba(184, 155, 114, 0.3);
+}
+
+/* Handwritten font utility */
+.font-handwriting {
+  font-family: var(--font-handwriting), "Caveat", cursive;
+}
+
+.font-serif {
+  font-family: var(--font-serif), "Cormorant Garamond", Georgia, serif;
+}
+
+.font-sans {
+  font-family: var(--font-sans), "Plus Jakarta Sans", system-ui, sans-serif;
+}
